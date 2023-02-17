@@ -1,0 +1,47 @@
+.master{
+    width: 40%;
+    margin: auto;
+    margin-top: 200px;
+    background-color: lightcyan;
+    border-radius: 10px;
+    box-shadow: 10px 5px 10px;
+}
+.label{
+    display: block;
+    margin-top: 10px;
+    font-weight: bolder;
+    margin-left: -220px;
+}
+.inp{
+    height: 30px;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.bttn{
+    margin: 30px 0;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color:lightpink;
+    cursor: pointer;
+}
+.buttonclass{
+    display: flex;
+    justify-content:center;
+}
+.head{
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+}
+.label1{
+    margin-top: -50px;
+}
+.bttn:active{
+    background-color: lightgreen;
+}
+.bttn1{
+    margin-left: 50px;
+}
