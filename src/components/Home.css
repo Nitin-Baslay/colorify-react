@@ -1,0 +1,79 @@
+.colorbox {
+  width: 150px;
+  height: 100px;
+}
+.colorMaster {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  /* width:  80vw; */
+  /* background-color: aqua; */
+  /* min-width: 100vw; */
+}
+.logout {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: lightpink;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bolder;
+  font-size: 20px;
+  cursor: pointer;
+}
+.logout:hover,
+.addbttn:hover,
+.bttns:hover {
+  background-color: lightcoral;
+}
+.logout:active,
+.addbttn:active,
+.bttns:active {
+  background-color: lightgreen;
+}
+.colorPicker {
+  margin: auto;
+  margin-top: 10px;
+}
+.addbttn {
+  background-color: lightpink;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bolder;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.editsection {
+  display: flex;
+  justify-content: space-around;
+}
+.bttns {
+  margin-left: 10px;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  position: relative;
+  top: 70px;
+}
+.main {
+  border-bottom: 10px solid black;
+  border-radius: 20px;
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+}
+@media screen and (max-width: 769px) {
+  .colorMaster {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 426px) {
+  .head{
+    font-size: 70px;
+  }
+}
